@@ -1,5 +1,14 @@
+set history=700
+filetype plugin on
+filetype indent on
+au BufRead, BufNewFile *.game setfiletype php
 syntax on
-nohl
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 
+nohl
+set autoread
+
+let mapleader = ","
+let g:mapleader = ","
+call pathogen#infect()
+au BufNewFile,BufRead *.tpl :set ft=html
+set sw=4
