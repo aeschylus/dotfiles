@@ -3,7 +3,6 @@ filetype plugin on
 filetype indent on
 au BufRead, BufNewFile *.game setfiletype php
 syntax enable
-syntax on
 
 nohl
 set autoread
@@ -25,5 +24,7 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 nnoremap <down> <nop>
 nnoremap <up> <nop>
+
 set background=light
+let g:solarized_termcolors=16
 colorscheme solarized
