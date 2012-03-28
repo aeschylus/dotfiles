@@ -11,7 +11,9 @@ let mapleader = ","
 let g:mapleader = ","
 call pathogen#infect()
 au BufNewFile,BufRead *.tpl :set ft=html
-set sw=4
+set tabstop=4
+set shiftwidth=4
+set expandtab
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -24,6 +26,8 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 nnoremap <down> <nop>
 nnoremap <up> <nop>
+
+inoremap kj <Esc>
 
 set background=light
 let g:solarized_termcolors=16
