@@ -1,5 +1,6 @@
 set history=700
 set ignorecase
+set smartcase
 filetype plugin on
 filetype indent on
 au BufRead, BufNewFile *.game setfiletype php
