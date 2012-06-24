@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/Prometheus/Sites/d3Experiments/examples'
 let g:netrw_dirhist_2='/Users/Prometheus/Sites/d3Experiments'
 let g:netrw_dirhist_3='/Users/Prometheus/Sites/d3Experiments/src'
 let g:netrw_dirhist_4='/Users/Prometheus/Sites/d3Experiments/src/layout'
-let g:netrw_dirhist_5='/Users/Prometheus/Sites/d3Experiments/experiments/euclid'
-let g:netrw_dirhist_6='/Users/Prometheus/Sites/meteorApps/todos/client'
-let g:netrw_dirhist_7='/Users/Prometheus/Sites/rails/ThousandFans/config'

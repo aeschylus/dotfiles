@@ -1,4 +1,5 @@
 set history=700
+set ignorecase
 filetype plugin on
 filetype indent on
 au BufRead, BufNewFile *.game setfiletype php
@@ -29,6 +30,12 @@ nnoremap <up> <nop>
 
 inoremap kj <Esc>
 
-set background=light
+set background=dark
 let g:solarized_termcolors=16
-colorscheme solarized
+colorscheme desert
+" 'quote' a word
+ nnoremap qw :silent! normal mpea'<Esc>bi'<Esc>`pl
+ " double "quote" a word
+ nnoremap qd :silent! normal mpea"<Esc>bi"<Esc>`pl
+ " remove quotes from a word
+ nnoremap wq :silent! normal mpeld bhd `ph<CR>
