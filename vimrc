@@ -16,6 +16,7 @@ au BufNewFile,BufRead *.game :set ft=php
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set hidden
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
