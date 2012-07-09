@@ -3,7 +3,6 @@ set ignorecase
 set smartcase
 filetype plugin on
 filetype indent on
-au BufRead, BufNewFile *.game setfiletype php
 syntax enable
 
 nohl
@@ -13,6 +12,7 @@ let mapleader = ","
 let g:mapleader = ","
 call pathogen#infect()
 au BufNewFile,BufRead *.tpl :set ft=html
+au BufNewFile,BufRead *.game :set ft=php
 set tabstop=4
 set shiftwidth=4
 set expandtab
