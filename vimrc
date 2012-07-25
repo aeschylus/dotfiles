@@ -7,6 +7,7 @@ syntax enable
 
 nohl
 set autoread
+set ruler
 
 let mapleader = ","
 let g:mapleader = ","
