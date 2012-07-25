@@ -13,8 +13,8 @@ let g:mapleader = ","
 call pathogen#infect()
 au BufNewFile,BufRead *.tpl :set ft=html
 au BufNewFile,BufRead *.game :set ft=php
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set hidden
 call pathogen#runtime_append_all_bundles()
@@ -36,8 +36,11 @@ set background=dark
 let g:solarized_termcolors=16
 colorscheme desert
 " 'quote' a word
- nnoremap qw :silent! normal mpea'<Esc>bi'<Esc>`pl
- " double "quote" a word
- nnoremap qd :silent! normal mpea"<Esc>bi"<Esc>`pl
- " remove quotes from a word
- nnoremap wq :silent! normal mpeld bhd `ph<CR>
+nnoremap qw :silent! normal mpea'<Esc>bi'<Esc>`pl
+" double "quote" a word
+nnoremap qd :silent! normal mpea"<Esc>bi"<Esc>`pl
+" remove quotes from a word
+nnoremap wq :silent! normal mpeld bhd `ph<CR>
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
