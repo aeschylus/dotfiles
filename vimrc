@@ -13,8 +13,8 @@ let g:mapleader = ","
 call pathogen#infect()
 au BufNewFile,BufRead *.tpl :set ft=html
 au BufNewFile,BufRead *.game :set ft=php
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set hidden
 call pathogen#runtime_append_all_bundles()
