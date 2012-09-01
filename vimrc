@@ -45,3 +45,5 @@ nnoremap wq :silent! normal mpeld bhd `ph<CR>
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
+let delimitMate_expand_cr = 1
+au FileType mail let b:delimitMate_expand_cr = 1
