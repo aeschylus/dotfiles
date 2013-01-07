@@ -5,7 +5,6 @@ filetype plugin on
 filetype indent on
 syntax enable
 
-nohl
 set autoread
 set ruler
 
@@ -14,6 +13,7 @@ let g:mapleader = ","
 call pathogen#infect()
 au BufNewFile,BufRead *.tpl :set ft=html
 au BufNewFile,BufRead *.game :set ft=php
+au BufNewFile,BufRead *'.hb.js' :set ft=handlebars
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -47,3 +47,4 @@ let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 let delimitMate_expand_cr = 1
 au FileType mail let b:delimitMate_expand_cr = 1
+:let flexwiki_maps = 1
