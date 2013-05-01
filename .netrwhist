@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/Prometheus/Sites/goalBurst/app'
-let g:netrw_dirhist_2='/Users/Prometheus/Sites/goalBurst/app/templates'
-let g:netrw_dirhist_3='/Users/Prometheus/Sites/goalBurst/app'
-let g:netrw_dirhist_4='/Users/Prometheus/Sites/goalBurst/app/scripts'
-let g:netrw_dirhist_5='/Users/Prometheus/Sites'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/Prometheus/Sites/Stanford'
+let g:netrw_dirhist_2='/Users/Prometheus/Sites/Stanford/shared-canvas'
+let g:netrw_dirhist_3='/Users/Prometheus/Sites/Stanford/shared-canvas/demo1'
+let g:netrw_dirhist_4='/Users/Prometheus/Sites/Stanford/shared-canvas/demo1/res'
+let g:netrw_dirhist_5='/Applications/MAMP/htdocs/madronecreative.com'
+let g:netrw_dirhist_6='/Users/Prometheus/Sites/todomvc/architecture-examples/jquery/js'

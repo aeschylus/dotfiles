@@ -1,9 +1,12 @@
 set history=700
 set ignorecase
 set smartcase
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+set laststatus=2
 filetype plugin on
 filetype indent on
 syntax enable
+set encoding=utf-8
 
 set autoread
 set ruler
@@ -48,3 +51,6 @@ let g:html_indent_style1 = "inc"
 let delimitMate_expand_cr = 1
 au FileType mail let b:delimitMate_expand_cr = 1
 :let flexwiki_maps = 1
+set cursorline
+set cursorcolumn
+autocmd BufEnter * silent! lcd %:p:h
