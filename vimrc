@@ -2,6 +2,7 @@ set history=700
 set ignorecase
 set smartcase
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set laststatus=2
 filetype plugin on
 filetype indent on
