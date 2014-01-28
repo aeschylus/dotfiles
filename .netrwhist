@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/drewwinget/Sites/Stanford/iiif-project-site/less'
 let g:netrw_dirhist_2='/Users/drewwinget/Sites/Stanford/iiif-project-site'
 let g:netrw_dirhist_3='/Users/drewwinget/Sites/Stanford/iiif-project-site/scratch'
 let g:netrw_dirhist_4='/Users/drewwinget/Sites/Stanford/iiif-project-site/scratch/madrone-creative-wp-theme'
 let g:netrw_dirhist_5='/Users/drewwinget/Sites/Stanford/iiif-project-site'
 let g:netrw_dirhist_6='/Users/drewwinget/Sites/Stanford/annotations-demo'
+let g:netrw_dirhist_7='/Users/awinget/Sites/Stanford/githubMirador/iiifMirador/spec'
