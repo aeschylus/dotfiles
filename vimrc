@@ -11,6 +11,7 @@ filetype plugin on
 filetype indent on
 syntax enable
 set encoding=utf-8
+set directory=$HOME/.vim/temp//
 
 set autoread
 set ruler
@@ -39,6 +40,11 @@ nnoremap <down> <nop>
 nnoremap <up> <nop>
 
 inoremap kj <Esc>
+"prevent fat fingers from wasting time
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
 
 set background=dark
 let g:solarized_termcolors=16
@@ -55,6 +61,9 @@ let g:html_indent_style1 = "inc"
 let delimitMate_expand_cr = 1
 au FileType mail let b:delimitMate_expand_cr = 1
 :let flexwiki_maps = 1
-set cursorline
-set cursorcolumn
+augroup CursorLineOnlyInActiveWindow
+  autocmd!
+  autocmd VimEnter,WinEnter,BufWinEnter * setlocal cursorline cursorcolumn
+  autocmd WinLeave * setlocal nocursorline nocursorcolumn
+augroup END
 autocmd BufEnter * silent! lcd %:p:h
